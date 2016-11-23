@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PersoAnim.cs">
+    <Files>
+      <File FileName="Assets\PersoAnim.cs" Line="20" Column="11" />
+      <File FileName="Assets\ANIM.cs" Line="41" Column="20" />
+      <File FileName="Assets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
