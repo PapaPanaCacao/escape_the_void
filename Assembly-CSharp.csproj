@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\ANIM.cs" />
      <Compile Include="Assets\GroundObject.cs" />
+     <Compile Include="Assets\Perso\PersoPhysics.cs" />
      <Compile Include="Assets\PersoAnim.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />

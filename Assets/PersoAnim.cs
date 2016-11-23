@@ -9,8 +9,22 @@ public class PersoAnim : MonoBehaviour
 
 	public ANIM currentAnim;
 
+	public UnityStandardAssets._2D.PlatformerCharacter2D p;
+
 	public void Update()
 	{
+		if (p.animAir) {
+			if (p.animUp)
+				ChangeAnim (rise);
+			else
+				ChangeAnim (fall);
+		} else {
+			if (p.animRun)
+				ChangeAnim (run);
+			else
+				ChangeAnim (stand);
+		}
+
 		currentAnim.sr.sprite = currentAnim.GetSprite ();
 	}
 
