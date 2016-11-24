@@ -47,7 +47,16 @@
   <ItemGroup>
      <Compile Include="Assets\ANIM.cs" />
      <Compile Include="Assets\GroundObject.cs" />
+     <Compile Include="Assets\Other\GameOptions.cs" />
+     <Compile Include="Assets\Other\Log.cs" />
+     <Compile Include="Assets\Other\TimeBomb.cs" />
+     <Compile Include="Assets\Perso\ANIMEvent.cs" />
+     <Compile Include="Assets\Perso\ANIMEventPrefab.cs" />
+     <Compile Include="Assets\Perso\PersoGraphics.cs" />
+     <Compile Include="Assets\Perso\PersoListener.cs" />
+     <Compile Include="Assets\Perso\PersoListenerMultiplex.cs" />
      <Compile Include="Assets\Perso\PersoPhysics.cs" />
+     <Compile Include="Assets\Perso\SFX\SFXAnim.cs" />
      <Compile Include="Assets\PersoAnim.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />

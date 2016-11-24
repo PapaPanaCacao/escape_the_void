@@ -1,10 +1,17 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PersoAnim.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Perso\SFX\SFXAnim.cs">
     <Files>
-      <File FileName="Assets\PersoAnim.cs" Line="20" Column="11" />
-      <File FileName="Assets\ANIM.cs" Line="41" Column="20" />
-      <File FileName="Assets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" Line="1" Column="1" />
+      <File FileName="Assets\ANIM.cs" Line="49" Column="26" />
+      <File FileName="Assets\Perso\PersoPhysics.cs" Line="124" Column="4" />
+      <File FileName="Assets\Perso\PersoGraphics.cs" Line="67" Column="24" />
+      <File FileName="Assets\Perso\PersoListener.cs" Line="10" Column="28" />
+      <File FileName="Assets\Perso\PersoListenerMultiplex.cs" Line="19" Column="2" />
+      <File FileName="Assets\Other\GameOptions.cs" Line="6" Column="43" />
+      <File FileName="Assets\Perso\ANIMEvent.cs" Line="12" Column="1" />
+      <File FileName="Assets\Perso\ANIMEventPrefab.cs" Line="14" Column="1" />
+      <File FileName="Assets\Other\TimeBomb.cs" Line="11" Column="25" />
+      <File FileName="Assets\Perso\SFX\SFXAnim.cs" Line="10" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
