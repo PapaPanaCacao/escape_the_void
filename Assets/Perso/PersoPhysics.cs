@@ -10,6 +10,7 @@ public class PersoPhysics : MonoBehaviour
 	private Log log = new Log ("P-PHYSICS"/*, LogLevel.Debug/**/);
 
 
+	public static PersoPhysics i;
 	public PersoInput pinput, pinputPrec;
 
 	public PersoListener pl;
@@ -47,6 +48,7 @@ public class PersoPhysics : MonoBehaviour
 		charC = GetComponent<CharacterController> ();
 		pinput = new PersoInput ();
 		pinputPrec = new PersoInput ();
+		i = this;
 	}
 
 	public void Update()
@@ -71,7 +73,9 @@ public class PersoPhysics : MonoBehaviour
 		charC.Move (new Vector3(velocity.x, velocity.y, 0.0f)*Time.fixedDeltaTime);
 
 		groundedOld = grounded;
-		grounded = Physics.Raycast (transform.position, Vector3.down, systGroundCheckDist);//charC.isGrounded;
+		grounded = Physics.Raycast (transform.position, Vector3.down, systGroundCheckDist)
+			|| Physics.Raycast (transform.position + Vector3.right*0.2f, Vector3.down, systGroundCheckDist)
+			|| Physics.Raycast (transform.position + Vector3.left*0.2f, Vector3.down, systGroundCheckDist);//charC.isGrounded;
 
 		if (!groundedOld && grounded)
 			Landing ();

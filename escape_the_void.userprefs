@@ -1,17 +1,21 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Perso\SFX\SFXAnim.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Other\LevelManager.cs">
     <Files>
-      <File FileName="Assets\ANIM.cs" Line="49" Column="26" />
-      <File FileName="Assets\Perso\PersoPhysics.cs" Line="124" Column="4" />
-      <File FileName="Assets\Perso\PersoGraphics.cs" Line="67" Column="24" />
-      <File FileName="Assets\Perso\PersoListener.cs" Line="10" Column="28" />
-      <File FileName="Assets\Perso\PersoListenerMultiplex.cs" Line="19" Column="2" />
-      <File FileName="Assets\Other\GameOptions.cs" Line="6" Column="43" />
-      <File FileName="Assets\Perso\ANIMEvent.cs" Line="12" Column="1" />
-      <File FileName="Assets\Perso\ANIMEventPrefab.cs" Line="14" Column="1" />
-      <File FileName="Assets\Other\TimeBomb.cs" Line="11" Column="25" />
-      <File FileName="Assets\Perso\SFX\SFXAnim.cs" Line="10" Column="28" />
+      <File FileName="Assets\ANIM.cs" Line="1" Column="1" />
+      <File FileName="Assets\Perso\PersoPhysics.cs" Line="1" Column="1" />
+      <File FileName="Assets\Perso\PersoGraphics.cs" Line="1" Column="1" />
+      <File FileName="Assets\Perso\PersoListener.cs" Line="1" Column="1" />
+      <File FileName="Assets\Perso\PersoListenerMultiplex.cs" Line="1" Column="1" />
+      <File FileName="Assets\Other\GameOptions.cs" Line="1" Column="1" />
+      <File FileName="Assets\Perso\ANIMEventPrefab.cs" Line="1" Column="1" />
+      <File FileName="Assets\Other\TimeBomb.cs" Line="1" Column="1" />
+      <File FileName="Assets\Perso\SFX\SFXAnim.cs" Line="1" Column="1" />
+      <File FileName="Assets\Other\LevelManager.cs" Line="23" Column="11" />
+      <File FileName="Assets\Other\LevelSpawner.cs" Line="27" Column="3" />
+      <File FileName="Assets\Camera\CameraGame.cs" Line="64" Column="19" />
+      <File FileName="Assets\Other\SplashScreen.cs" Line="25" Column="39" />
+      <File FileName="Assets\Camera\CameraZone.cs" Line="15" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

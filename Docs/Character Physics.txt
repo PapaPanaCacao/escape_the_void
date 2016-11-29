@@ -1,0 +1,6 @@
+Character physics Guidelines
+
+Dash Length : 12 (managed to go to 14 tiles because of the step rise)
+Jump Height : 7.5
+Jump Rise Run : 4
+Jump Rise Dash : 7.5

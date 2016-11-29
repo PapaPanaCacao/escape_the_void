@@ -26,7 +26,7 @@ public class PersoGraphics : PersoListener
 
 		animRun = Mathf.Abs(p.velocity.x) > 0.2f;
 		animUp = p.velocity.y > 0.0f;
-
+		animAir = !p.grounded;
 
 		ChooseAnim ();
 
@@ -70,12 +70,13 @@ public class PersoGraphics : PersoListener
 
 	public override void OnJumpStart()
 	{
-		animAir = true;
+		//animAir = true;
 	}
 
 	public override void OnLanding()
 	{
-		animAir = false;
-		ChangeAnim (land);
+		//animAir = false;
+		if(!p.dashInHeld)
+			ChangeAnim (land);
 	}
 }
